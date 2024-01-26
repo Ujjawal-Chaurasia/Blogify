@@ -6,10 +6,10 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: {
-    default: "Next.js 14 Homepage",
-    template: "%s | Next.js 14",
+    default: "Blogify",
+    template: "%s | Blogify",
   },
-  description: "Next.js starter app description",
+  description: "Blogify is a blogs collection website",
 };
 
 export default function RootLayout({ children }) {
@@ -19,13 +19,11 @@ export default function RootLayout({ children }) {
         <link rel="shortcut icon" href="/favicon.png" />
       </head>
       <body className={inter.className}>
-        {/* <ClientSideProviderTest> */}
         <div className="container">
           <Navbar />
           {children}
           <Footer />
         </div>
-        {/* </ClientSideProviderTest> */}
       </body>
     </html>
   );
