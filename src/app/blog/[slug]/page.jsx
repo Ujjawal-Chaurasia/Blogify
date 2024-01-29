@@ -6,7 +6,7 @@ import { getPost } from "@/lib/data";
 
 // FETCH DATA WITH AN API
 const getData = async (slug) => {
-  const res = await fetch(`http://blogify-jejx6ghqw-ujjawal-chaurasias-projects.vercel.app/${slug}`);
+  const res = await fetch(`https://blogify-jejx6ghqw-ujjawal-chaurasias-projects.vercel.app/${slug}`);
 
   if (!res.ok) {
     throw new Error("Something went wrong");
