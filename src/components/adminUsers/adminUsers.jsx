@@ -14,7 +14,7 @@ const AdminUsers = async () => {
           <div className={styles.detail}>
             <Image
               src={user.img || "/noAvatar.png"}
-              alt=""
+              alt="userimg"
               width={50}
               height={50}
             />
