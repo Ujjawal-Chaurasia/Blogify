@@ -15,7 +15,7 @@ const LoginForm = () => {
       <button>Login</button>
       {state?.error}
       <Link href="/register">
-        {"Don't have an account?"} <b>Register</b>
+        <p style={{"color":'#000'}}>{"Don't have an account?"} <b>Register</b></p>
       </Link>
     </form>
   );
