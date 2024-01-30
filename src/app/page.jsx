@@ -14,11 +14,11 @@ const Home = () => {
           <Link href="/contact" className={styles.button}>Contact</Link>
         </div>
         <div className={styles.brands}>
-          <Image src="/brands.png" alt="" fill className={styles.brandImg}/>
+          <Image src="/brands.png" alt="" fill sizes="100%"/>
         </div>
       </div>
       <div className={styles.imgContainer}>
-        <Image src="/idea.png" alt="homeimage" fill className={styles.heroImg}/>
+        <Image src="/idea.png" alt="homeimage" fill sizes="100%"/>
       </div>
     </div>
   );
